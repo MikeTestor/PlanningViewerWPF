@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanningViewerWPF.EntityFra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanningViewerWPF.IO", "PlanningViewerWPF.IO\PlanningViewerWPF.IO.csproj", "{F2F08D6F-62DC-4ECE-8F31-9D279E563395}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanningViewerWPF.Domain", "PlanningViewerWPF.Domain\PlanningViewerWPF.Domain.csproj", "{A11BD051-CA64-4922-9418-FB11BA9B38DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F2F08D6F-62DC-4ECE-8F31-9D279E563395}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2F08D6F-62DC-4ECE-8F31-9D279E563395}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2F08D6F-62DC-4ECE-8F31-9D279E563395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11BD051-CA64-4922-9418-FB11BA9B38DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11BD051-CA64-4922-9418-FB11BA9B38DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11BD051-CA64-4922-9418-FB11BA9B38DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11BD051-CA64-4922-9418-FB11BA9B38DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

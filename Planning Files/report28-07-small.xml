@@ -1,0 +1,767 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>NetSuite Reports</Author>
+  <LastAuthor>NetSuite Reports</LastAuthor>
+  <Company>NetSuite</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9285</WindowHeight>
+  <WindowWidth>24000</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" ss:Size="12" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" ss:Size="14" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" ss:Size="7" ss:Bold="1"/>
+   <Interior ss:Color="#D0D0D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" ss:Size="7" ss:Bold="1"/>
+   <Interior ss:Color="#D0D0D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" ss:Size="7" ss:Bold="1"/>
+   <Interior ss:Color="#D0D0D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+   <NumberFormat ss:Format="#,##0.00%"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:Indent="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Dash" ss:Weight="1" ss:Color="#CCCCCC"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Dash" ss:Weight="1" ss:Color="#CCCCCC"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Dash" ss:Weight="1" ss:Color="#CCCCCC"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Dash" ss:Weight="1" ss:Color="#CCCCCC"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+   <NumberFormat ss:Format="#,##0.00%"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="NavigateDailyPlanning">
+  <Table ss:ExpandedColumnCount="47" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="42" ss:DefaultRowHeight="11.25">
+   <Row ss:Height="15.75">
+    <Cell ss:MergeAcross="46" ss:StyleID="s63"><Data ss:Type="String">ARY(P)</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:MergeAcross="46" ss:StyleID="s63"><Data ss:Type="String">Atlas Topco 1 Limited : Atlas Midco 1 Limited : Atlas Bidco 1 Limited : Aryza Holdings Limited : Chiron Holdings Limited : Saturn Topco S.a.r.l : Saturn F17-349 Midco GmbH : Saturn F17-350 Bidco GmbH : Aryza Europe GmbH : Aryza Holding B.V. : Collenda Holding B.V : Aryza B.V.</Data></Cell>
+   </Row>
+   <Row ss:Height="18">
+    <Cell ss:MergeAcross="46" ss:StyleID="s65"><Data ss:Type="String">Navigate Daily Planning</Data></Cell>
+   </Row>
+   <Row ss:Height="18">
+    <Cell ss:MergeAcross="46" ss:StyleID="s65"><Data ss:Type="String">29 July 2025 - 28 October 2025</Data></Cell>
+   </Row>
+   <Row ss:Height="18">
+    <Cell ss:MergeAcross="46" ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="18">
+    <Cell ss:MergeAcross="46" ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Resource</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s66"><Data ss:Type="String">Customer: Project</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 31 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 32 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 33 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 34 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 35 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 36 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 37 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 38 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 39 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 40 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 41 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 42 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 43 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Week 44 2025</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s69"><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Allocated Time</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Available Hours</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Utilization</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Mike Testor</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Cus-01159 Vesting Finance : Proj-00846 Vesting Finance Maintenance 2025</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"
+     ss:Formula="=SUM(RC[-42],RC[-39],RC[-36],RC[-33],RC[-30],RC[-27],RC[-24],RC[-21],RC[-18],RC[-15],RC[-12],RC[-9],RC[-6],RC[-3])"><Data
+      ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s74"
+     ss:Formula="=SUM(RC[-42],RC[-39],RC[-36],RC[-33],RC[-30],RC[-27],RC[-24],RC[-21],RC[-18],RC[-15],RC[-12],RC[-9],RC[-6],RC[-3])"><Data
+      ss:Type="Number">528</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">7.575757575757576E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Cus-01163 Aryza B.V. : Proj-00976 Interne uren 2025</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">3.125E-2</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">7.4999999999999997E-2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">7.4999999999999997E-2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1.2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">7.4999999999999997E-2</Data></Cell>
+    <Cell ss:StyleID="s73"
+     ss:Formula="=SUM(RC[-42],RC[-39],RC[-36],RC[-33],RC[-30],RC[-27],RC[-24],RC[-21],RC[-18],RC[-15],RC[-12],RC[-9],RC[-6],RC[-3])"><Data
+      ss:Type="Number">16.2</Data></Cell>
+    <Cell ss:StyleID="s74"
+     ss:Formula="=SUM(RC[-42],RC[-39],RC[-36],RC[-33],RC[-30],RC[-27],RC[-24],RC[-21],RC[-18],RC[-15],RC[-12],RC[-9],RC[-6],RC[-3])"><Data
+      ss:Type="Number">528</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">3.0681818181818185E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Cus-01163 Aryza B.V. : Proj-01059 Upgrade Framework GRFO</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0.625</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"
+     ss:Formula="=SUM(RC[-42],RC[-39],RC[-36],RC[-33],RC[-30],RC[-27],RC[-24],RC[-21],RC[-18],RC[-15],RC[-12],RC[-9],RC[-6],RC[-3])"><Data
+      ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s74"
+     ss:Formula="=SUM(RC[-42],RC[-39],RC[-36],RC[-33],RC[-30],RC[-27],RC[-24],RC[-21],RC[-18],RC[-15],RC[-12],RC[-9],RC[-6],RC[-3])"><Data
+      ss:Type="Number">528</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">3.787878787878788E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Cus-01163 Aryza B.V. : Proj-01123 GoPay Email in Bulk</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"
+     ss:Formula="=SUM(RC[-42],RC[-39],RC[-36],RC[-33],RC[-30],RC[-27],RC[-24],RC[-21],RC[-18],RC[-15],RC[-12],RC[-9],RC[-6],RC[-3])"><Data
+      ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s74"
+     ss:Formula="=SUM(RC[-42],RC[-39],RC[-36],RC[-33],RC[-30],RC[-27],RC[-24],RC[-21],RC[-18],RC[-15],RC[-12],RC[-9],RC[-6],RC[-3])"><Data
+      ss:Type="Number">528</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">7.9545454545454544E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Cus-01169 Werkgroep CJIB : Proj-01125 CJIB Tol-zaken</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"
+     ss:Formula="=SUM(RC[-42],RC[-39],RC[-36],RC[-33],RC[-30],RC[-27],RC[-24],RC[-21],RC[-18],RC[-15],RC[-12],RC[-9],RC[-6],RC[-3])"><Data
+      ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s74"
+     ss:Formula="=SUM(RC[-42],RC[-39],RC[-36],RC[-33],RC[-30],RC[-27],RC[-24],RC[-21],RC[-18],RC[-15],RC[-12],RC[-9],RC[-6],RC[-3])"><Data
+      ss:Type="Number">528</Data></Cell>
+    <Cell ss:StyleID="s75"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">7.575757575757576E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Total - Mike Testor</Data></Cell>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0.65625</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0.27500000000000002</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0.57499999999999996</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0.42499999999999999</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">0.125</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">7.4999999999999997E-2</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">2.5000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">1.2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">7.4999999999999997E-2</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">86.2</Data></Cell>
+    <Cell ss:StyleID="s79" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">2640</Data></Cell>
+    <Cell ss:StyleID="s80"
+     ss:Formula="=(IF((ROUND(RC[-1],2) = 0),0,((100 * ROUND(RC[-2],2)) / ROUND(RC[-1],2))))/100"><Data
+      ss:Type="Number">3.2651515151515154E-2</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>23</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
